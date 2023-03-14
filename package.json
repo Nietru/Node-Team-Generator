@@ -1,0 +1,27 @@
+{
+  "name": "node-team-generator",
+  "version": "1.0.0",
+  "description": "<!------------------  GamePlan: --------------->  <!--   -----------------------------------------------------------------------------------  1.  2.  3.  4.  5.  6.  7.  8.  9.  10.  -----------------------------------------------------------------------------------------   -->",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nietru/Node-Team-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nietru/Node-Team-Generator/issues"
+  },
+  "homepage": "https://github.com/Nietru/Node-Team-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^29.5.0"
+  }
+}
