@@ -65,22 +65,22 @@ function addRole(res) {
       .prompt([
         {
           type: "input",
-          message: "Enter this engineer's name:",
+          message: "Enter this engineer's name: ",
           name: "engineerName",
         },
         {
           type: "number",
-          message: "Enter this engineer's ID:",
+          message: "Enter this engineer's employee ID: ",
           name: "engineerID",
         },
         {
           type: "input",
-          message: "Enter this engineer's email address:",
+          message: "Enter this engineer's email address: ",
           name: "engineerEmail",
         },
         {
           type: "input",
-          message: "Enter this engineer's GitHub username:",
+          message: "Enter this engineer's GitHub username: ",
           name: "engineerGitHub",
         },
         {
@@ -114,22 +114,22 @@ function addRole(res) {
       .prompt([
         {
           type: "input",
-          message: "Enter the intern's name:",
+          message: "Enter this intern's name: ",
           name: "internName",
         },
         {
           type: "number",
-          message: "Enter the intern's ID:",
+          message: "Enter this intern's employee ID: ",
           name: "internID",
         },
         {
           type: "input",
-          message: "Enter the intern's email address:",
+          message: "Enter this intern's email address: ",
           name: "internEmail",
         },
         {
           type: "input",
-          message: "Enter the intern's school name:",
+          message: "Enter this intern's school name: ",
           name: "internSchool",
         },
         {
@@ -150,10 +150,7 @@ function addRole(res) {
         // Adding html to the employees string
         employees += addToHTML(intern1);
         // If user chooses to add another role, rerun addRole function
-        if (
-          res.addRole === "Add an engineer" ||
-          res.addRole === "Add an intern"
-        ) {
+        if (res.addRole === "Add Engineer" || res.addRole === "Add Intern") {
           return addRole(res.addRole);
         } // Generates page if user finishes building team
         else if (res.addRole === "Team completed!") {
