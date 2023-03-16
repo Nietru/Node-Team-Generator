@@ -35,7 +35,7 @@ function init() {
       {
         type: "number",
         message: "Enter the manager's office number: ",
-        name: "managerOffice",
+        name: "officeNumber",
       },
       {
         type: "list",
@@ -48,9 +48,9 @@ function init() {
       let name = response.manager;
       let id = response.managerID;
       let email = response.managerEmail;
-      let officeNum = response.managerOffice;
+      let officeNumber = response.officeNumber;
       // create new manager  object:
-      let manager1 = new Manager(name, id, email, officeNum);
+      let manager1 = new Manager(name, id, email, officeNumber);
       employees += addToHTML(manager1);
       // Will ask if they would like to add a new team member and then move on to new team member prompts:
       return addTeamMember(response.addTeamMember);
