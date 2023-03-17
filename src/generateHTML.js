@@ -16,12 +16,12 @@ function generateHTML(arr) {
   <body>
     <div class="jumbotron jumbotron-fluid bg-danger">
       <div class="container">
-        <h1 class="display-4 text-white center-text">Employee Generator</h1>
+        <h1 class="display-4 text-white text-center">Employee Generator</h1>
       </div>
     </div>
 
-    <div class="container">
-      ${structureCards(arr)}
+    <div class="container row">
+        ${structureCards(arr)}
     </div>
   </body>
 </html>
@@ -58,9 +58,9 @@ function structureCards(arr) {
     } else {
       template += `<div class="card text-center" style="width: 18rem">
         <div class="card-body">
-          <h5 class="card-header bg-secondary">Inter</h5>
+          <h5 class="card-header bg-secondary">Intern</h5>
           <h5 class="card-title">Name: ${arr[i].getName()}</h5>
-          <h5 class="card-title">Schoole: ${arr[i].getSchool()}</h5>
+          <h5 class="card-title">School: ${arr[i].getSchool()}</h5>
           <hr />
           <p class="card-text">id: ${arr[i].getId()}</p>
           <hr />
