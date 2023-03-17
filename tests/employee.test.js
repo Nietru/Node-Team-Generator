@@ -1,4 +1,4 @@
-const Employee = require("../lib/employee");
+const Employee = require("../lib/employee.js");
 
 test("It should create an object when you make any class", () => {
   const testVariable = new Employee();
