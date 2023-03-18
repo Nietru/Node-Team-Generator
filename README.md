@@ -26,11 +26,11 @@ My classmate Carter and my tutor Andres Long, also through UNH, were a huge help
 
 ## Video Walkthrough
 
+https://drive.google.com/file/d/1JOg0S0qJ8bnCh1Vuzctn3zhT3chw_qt1/view
+
 ## Photo of completed HTML in a browser
 
-```
 ![An image of the Node Team Generator in the browser after input is completed](./media/screenCapture.PNG?raw=true)
-```
 
 ## User Story
 
